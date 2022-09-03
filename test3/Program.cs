@@ -1,6 +1,6 @@
 ﻿int RandThree ()
 {
-    int x = new Random().Next(100, 1000);
+    int x = new Random().Next(100, 1000000);
     Console.WriteLine($"Трехзначное число -> {x}");
     return (x);
 }
